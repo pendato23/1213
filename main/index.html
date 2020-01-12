@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>웹연습</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      input,
+      button {
+        background-color: transparent;
+        border: transparent;
+        outline: 0;
+      }
+
+      .wrap {
+        background: linear-gradient(rgb(226, 243, 255), #babef5);
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .snowmanwrap {
+        width: 406px;
+        height: 480px;
+
+        margin: 0px auto;
+      }
+
+      .wrap2 {
+        width: 406px;
+        height: 480px;
+
+        margin: 0px auto;
+        margin-top: 30px;
+      }
+
+      .id {
+        width: 406px;
+        height: 50px;
+        margin: 0px auto;
+        clear: both;
+        border-bottom: 2px solid #fff;
+        border-radius: 10px;
+        padding-left: 14px;
+      }
+
+      .password {
+        width: 406px;
+        height: 50px;
+        margin: 0px auto;
+        clear: both;
+        margin-top: 10px;
+        border-bottom: 2px solid #fff;
+        padding-left: 14px;
+        border-radius: 10px;
+      }
+
+      .findname {
+        float: left;
+        padding-left: 14px;
+        margin-top: 20px;
+      }
+
+      .submit {
+        width: 80px;
+        height: 50px;
+        background: white;
+        border-radius: 20px;
+        margin-left: 84px;
+        margin-top: 20px;
+        letter-spacing: 8px;
+        padding-left: 6px;
+        float: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="snowmanwrap">
+        <img src="images/snowman.gif" alt="" class="snowman" />
+      </div>
+      <div class="wrap2">
+        <input type="text" class="id" placeholder="너의 이름은" />
+        <input type="password" class="password" placeholder="나의 비밀번호" />
+        <button class="findname">내가 누구였죠?</button>
+        <button class="findname">비번번호가 뭐더라?</button>
+        <button class="submit">확인</button>
+      </div>
+    </div>
+  </body>
+</html>
